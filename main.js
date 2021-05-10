@@ -58,7 +58,7 @@ function main(){
   //     console.log(i);
   //   }
   // }
-  var outputnya = "";
+  var outputnya = "Result : <br>";
   for (var i = 0; i < heroDB.length; i++){
     if (KMP(heroDB[i],x) != -1){
       outputnya += (`${heroDB[i]} <br>`);
