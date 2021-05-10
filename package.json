@@ -1,0 +1,23 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss build src/style.css -o style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfandaviAU/Dota2HeroFIider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlfandaviAU/Dota2HeroFIider/issues"
+  },
+  "homepage": "https://github.com/AlfandaviAU/Dota2HeroFIider#readme",
+  "dependencies": {
+    "tailwindcss": "^2.1.2"
+  }
+}
